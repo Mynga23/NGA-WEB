@@ -22,6 +22,7 @@
     margin-top: 5px;
     padding-left: 6%;
     height: 82%;
+ 
 }
 .congcu{
     margin-right: 110px;
@@ -30,6 +31,7 @@
     width: 100%;
     height: 100px;
     position: relative;
+
 }
 /* img:hover{
 transform: rotate(0deg) scale(1.06);
@@ -92,14 +94,14 @@ a{
 text-decoration: none;
   color: black;
 }
-.index-card{
+/* .index-card{
     margin-left: 195px;
     width: 75%;
     height: 298px;
    display: flex;
     margin-top: 40px;
     
-}
+} */
 .card__img{
     overflow: hidden;
 }
@@ -120,25 +122,34 @@ button:hover {
     background: -webkit-linear-gradient(to right, #f12711, #f5af19); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f12711, #f5af19); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.index-card{
+    padding-left: 16px;
+    width: 100%;
+    height: 298px;
+    display: flex;
+    margin-top: 40px;
+}
  .card:hover .card__action {
     transform: translateY(-34px);
     transition: all ease-in-out 1s;
     display: inline;
       }
-.hr{
+/* .hr{
     width: 177px;
     margin-left: 50px;
 }
 .col-12.col-sm-4.card-1{
     background-size: cover;
-    background-image: url(https://cf.shopee.vn/file/c74e066f433e49fd4bced6c4d09197a0);
+    background-image: ; 
+     background-image: url(https://cf.shopee.vn/file/c74e066f433e49fd4bced6c4d09197a0);
 }
 .col-12.col-sm-4.card-2{
     background-size: cover;
-    background-image: url(https://moonsilver.com.vn/uploads/2017/08/hinhcay2.jpg);}
+     background-image: url(https://moonsilver.com.vn/uploads/2017/08/hinhcay2.jpg); 
+}
 .col-12.col-sm-4.card-3{
     background-size: cover;
-    background-image: url(https://cf.shopee.vn/file/d072549c18854e8b50eafe3dfba18bb8);
+     background-image: url(https://cf.shopee.vn/file/d072549c18854e8b50eafe3dfba18bb8);
 }
 .index-card h4, .index-card h2,.index-card hr{
     opacity: 0.5;
@@ -166,7 +177,7 @@ button:hover {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
     color: green;
-}
+} */
 .card__title p{
     text-align: center;
     font-weight: bold;
@@ -190,7 +201,9 @@ font-weight: bold;
     height: 216px;
 }
 .sectionwrapper-home-newsletter{
-    background-image: url(https://jewellery.thesilkroad.vn/wp-content/uploads/2020/11/bst-M.jpg);
+
+    /* background-image:url(https://cdn.pnj.io/images/promo/115/banner-tsDaQuy14-01-1200x450-cta.jpg); */
+    background-image: url(https://preciousle.com/uploaded/kienthuc/%E1%BA%A3nh%20%C4%91%C3%A1%20ruby/12%20banner-trang-suc-1.gif);
     margin-top: 40px;
     height: 274px;
 }
@@ -301,6 +314,12 @@ height: 200px;
 h2{
     text-align: center;
 }
+.footer-content img{
+    width: 64%;
+    border-top-right-radius: 32%;
+    border-top-left-radius: 32%;
+}
+
 .lienket{
     padding-right: 10px;
 }
@@ -309,6 +328,7 @@ h2{
     margin-top: 90px;
     padding: 3px
 }
+
   /* .card__action{
       display: none;
   } */
