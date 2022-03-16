@@ -94,14 +94,6 @@ a{
 text-decoration: none;
   color: black;
 }
-/* .index-card{
-    margin-left: 195px;
-    width: 75%;
-    height: 298px;
-   display: flex;
-    margin-top: 40px;
-    
-} */
 .card__img{
     overflow: hidden;
 }
@@ -134,50 +126,7 @@ button:hover {
     transition: all ease-in-out 1s;
     display: inline;
       }
-/* .hr{
-    width: 177px;
-    margin-left: 50px;
-}
-.col-12.col-sm-4.card-1{
-    background-size: cover;
-    background-image: ; 
-     background-image: url(https://cf.shopee.vn/file/c74e066f433e49fd4bced6c4d09197a0);
-}
-.col-12.col-sm-4.card-2{
-    background-size: cover;
-     background-image: url(https://moonsilver.com.vn/uploads/2017/08/hinhcay2.jpg); 
-}
-.col-12.col-sm-4.card-3{
-    background-size: cover;
-     background-image: url(https://cf.shopee.vn/file/d072549c18854e8b50eafe3dfba18bb8);
-}
-.index-card h4, .index-card h2,.index-card hr{
-    opacity: 0.5;
-    text-align: center;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-}
-.index-card .card-1:hover h4, .index-card .card-1:hover h2, .index-card .card-1:hover hr {
-    opacity: 1;
-    font-size: 25px;
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    color: green;
-}
-.index-card .card-2:hover h4, .index-card .card-2:hover h2, .index-card .card-3:hover hr {
-    opacity: 1;
-    font-size: 25px;
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    color: green;
-}
-.index-card .card-3:hover h4, .index-card .card-3:hover h2, .index-card .card-3:hover hr {
-    opacity: 1;
-    font-size: 25px;
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    color: green;
-} */
+
 .card__title p{
     text-align: center;
     font-weight: bold;
