@@ -13,13 +13,13 @@
     /* background: ; #CAF3F5 */
 }
 #header{
-    background-color: #f8f9fa;
+    /* background-color: #f8f9fa; */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo{
-    width: 20%;
+    width: 15%;
     margin-top: 5px;
     padding-left: 6%;
     height: 82%;
@@ -133,13 +133,12 @@ li a .dropbtn {
     padding: 0px;
 }
 .index-card{
-    margin-left: 195px;
-    width: 75%;
+    padding-left: 16px;
+    width: 100%;
     height: 298px;
-   display: flex;
+    display: flex;
     margin-top: 40px;
-    
-}
+  }
 .card__img{
     overflow: hidden;
 }
@@ -245,7 +244,7 @@ a{
     }
     .content-div{
         float: right;
-        margin-top: -1459px;
+        margin-top: -1519px;
         padding-left: 73px;
     }
     .sidebar-content img{

@@ -74,6 +74,9 @@ li a .dropbtn {
     box-shadow: epx 8px 16px epx Orgba(8,8,0,e.2);
     z-index: 1;
 }
+.hinh img{
+  width: 100%;
+}
   .drop-list a {
      color: Oblack;
     padding: 12px 16px;
