@@ -13,13 +13,13 @@
     /* background: ; #CAF3F5 */
 }
 #header{
-    background-color: #f8f9fa;
+    /* background-color: white; */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo{
-    width: 20%;
+    width: 15%;
     margin-top: 5px;
     padding-left: 6%;
     height: 82%;
@@ -27,6 +27,42 @@
 .congcu{
     margin-right: 110px;
 }
+   
+  .box {
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+   
+  input {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 0px;
+    transition: 0.8s ease;
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+  }
+   
+  input::placeholder {
+    color: antiquewhite;
+  }
+  .box:hover input {
+    width: 200px;
+    margin: 0 20px;
+    border-bottom: 2px solid red;
+  }
+   
+  input:focus {
+    width: 80px;
+    margin: 0 20px;
+    border-bottom: 2px solid red;
+  }
 .logo img {
     width: 100%;
     height: 100px;
