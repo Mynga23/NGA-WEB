@@ -83,7 +83,7 @@ a{
     text-decoration: none;
 }
 .big{
-   background-color: #a19e9c;;
+   background-color:#0f3959;
 }
 .sidebar{
     justify-content: center;
@@ -98,14 +98,16 @@ h4{
     border-bottom: solid 1px black;
 }
 .sidebar div:hover{
-background-color: #a19e9c;
+background-color: rgb(136, 54, 54);
 }
 .sidebar p{
     text-align: center;
     color: white;
 
 }
-
+p{
+  color: black;
+}
 .content-div{
     float: right;
     margin-top: -165px;
@@ -118,7 +120,7 @@ background-color: #a19e9c;
     display: flex;
 }
 .hang{
-    background-color: #403c3c;
+    background-color: white;
     height: 51px;
 }
 .detail{

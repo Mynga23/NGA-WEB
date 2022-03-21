@@ -35,7 +35,7 @@
     position: relative;
   }
    
-  input {
+  .search {
     background: none;
     outline: none;
     border: none;
@@ -48,16 +48,16 @@
     font-weight: 100;
   }
    
-  input::placeholder {
+  .search::placeholder {
     color: antiquewhite;
   }
-  .box:hover input {
+  .box:hover .search {
     width: 200px;
     margin: 0 20px;
     border-bottom: 2px solid red;
   }
    
-  input:focus {
+  .search:focus {
     width: 80px;
     margin: 0 20px;
     border-bottom: 2px solid red;
@@ -265,13 +265,13 @@ height: 200px;
     margin-top: -20px;
 }
   .card{
-    background-color: aliceblue;
-    height: 333px;
+    background-color: white;
+     height: 333px;
     margin-right: 10px;
     border-top-left-radius: 25px;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
-}
+} 
   h3{
       text-align: center;
       font-weight: bold;
@@ -312,42 +312,3 @@ h2{
     margin-top: 90px;
     padding: 3px
 }
-
-  /* .card__action{
-      display: none;
-  } */
-  /* .auth-form__header{
-    text-align: center;
-/* 	display: flex;
-align-items: center;
-justify-content: space-between; */
-
-
-/* .auth-form__heading{
-font-size: 2.2rem;
-font-weight: 400;
-color: var(--text-color);
-
-}
-.auth-form__switch-btn{
-font-size: 1.6rem;
-font-weight: 400;
-color: var(--primary-color);
-cursor: pointer;
-}
-.auth-form__input{
-border: none;
-border-bottom: 1px solid gray;
-}
-.auth-form__policy-link{
-color: black;
-margin-left:50px;
-}
-.auth-form__socials{
-text-align: center;
-}
-.inten_dki{
-text-align: center;
-   margin-top: 20px;
-} */
-
