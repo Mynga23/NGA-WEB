@@ -1,12 +1,21 @@
-function searchToggle(obj, evt){
-    var container = $(obj).closest('.search-wrapper');
-        if(!container.hasClass('active')){
-            container.addClass('active');
-            evt.preventDefault();
+$('#recipeCarousel').carousel({
+    interval :2000
+  })
+  
+  $('.carousel .carousel-item').each(function(){
+      var next = $(this).next();
+      if (!next.length) {
+      next = $(this).siblings(':first');
+      }
+      next.children(':first-child').clone().appendTo($(this));
+      
+      for (var i=0;i<2;i++) {
+          next=next.next();
+          if (!next.length) {
+              next = $(this).siblings(':first');
+            }
+          
+          next.children(':first-child').clone().appendTo($(this));
         }
-        else if(container.hasClass('active') && $(obj).closest('.input-holder').length == 0){
-            container.removeClass('active');
-           
-            container.find('.search-input').val('');
-        }
-}
+  });
+  

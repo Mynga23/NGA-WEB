@@ -187,7 +187,8 @@ font-weight: bold;
 .sectionwrapper-home-newsletter{
 
     /* background-image:url(https://cdn.pnj.io/images/promo/115/banner-tsDaQuy14-01-1200x450-cta.jpg); */
-    background-image: url(https://preciousle.com/uploaded/kienthuc/%E1%BA%A3nh%20%C4%91%C3%A1%20ruby/12%20banner-trang-suc-1.gif);
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-fresh-jewellery-fresh-minimalist-jewelry-poster-image_192578.jpg);
+    /* background-image: url(https://preciousle.com/uploaded/kienthuc/%E1%BA%A3nh%20%C4%91%C3%A1%20ruby/12%20banner-trang-suc-1.gif); */
     margin-top: 40px;
     height: 274px;
 }
@@ -311,4 +312,29 @@ h2{
     font-size: 30px;
     margin-top: 90px;
     padding: 3px
+}
+
+
+
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(30%);
+}
+
+.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-25%);
+}
+  
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+  
 }

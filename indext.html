@@ -16,8 +16,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/8c4b870cf3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/indext.css">
-    <!-- sick -->
+   <script>
+       function btn(){
+        if(confirm("Sản phẩm đã được thêm vào giỏ hàng, nhấn Ok để thanh toán") == true){
+            location.assign("shoppingcart.html");
+        }else{
+            location.assign("indext.html");
+        }
 
+    }
+   </script>
 
 </head>
 
@@ -123,19 +131,20 @@
 
                         </div>
                         <div class="card__cart"><i class='bx bx-cart-alt'></i></div>
-                        <div class="card__img"> <img src="img/lacc.jpg" alt=""></div>
+                        <div class="card__img"> <img src="img/chuyen.jpg" alt=""></div>
                         <div class="card__title">
-                            <p>Shoe name</p>
+                            <p>Bông tai</p>
                         </div>
                         <div class="card__price">
-                            <p>7.000.000 <sup>đ</sup></p>
+                            <p>120.000 <sup>VNĐ</sup></p>
                         </div>
 
                         <div class="card__action">
-                            <button>Buy now</button>
-                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add cart</button>
+                            <button type="button"  onclick="btn()">Mua ngay</button>
+                           <a href="shoppingcart.html"><button>Giỏ hàng</button></a> 
+                            <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add cart</button> -->
                             <!-- modal -->
-                             <div class="modal fade" id="myModal" role="dialog">
+                             <!-- <div class="modal fade" id="myModal" role="dialog">
                                 <div class="modal-dialog modal-sm">
                                   <div class="modal-content">
                                     <div class="modal-header">
@@ -150,8 +159,8 @@
                                     </div>
                                   </div>
                                 </div>
-                              </div>
-                            <a href="detail.html"><button>Detail</button></a>
+                              </div> -->
+                            <a href="detail.html"><button>Chi tiết</button></a>
                         </div>
                     </div>
                 </div>
@@ -163,18 +172,18 @@
 
                         </div>
                         <div class="card__cart"><i class='bx bx-cart-alt'></i></div>
-                        <div class="card__img"> <img src="img/tai.png" alt=""></div>
+                        <div class="card__img"> <img src="img/lac1.jpg" alt=""></div>
                         <div class="card__title">
-                            <p>Shoe name</p>
+                            <p>Bông tai</p>
                         </div>
                         <div class="card__price">
-                            <p>7.000.000 <sup>đ</sup></p>
+                            <p>410.000 <sup>VNĐ</sup></p>
                         </div>
 
                         <div class="card__action">
-                            <button>Buy now</button>
-                            <button>Add cart</button>
-                            <button>Detail</button>
+                            <button type="button"  onclick="btn()">Mua ngay</button>
+                            <a href="shoppingcart.html"><button>Giỏ hàng</button></a> 
+                            <button href="detail.html">Chi tiết</button>
                         </div>
                     </div>
                 </div>
@@ -185,17 +194,18 @@
 
                         </div>
                         <div class="card__cart"><i class='bx bx-cart-alt'></i></div>
-                        <div class="card__img"> <img src="img/tai2.png" alt=""></div>
+                        <div class="card__img"> <img src="img/lac2.jpg" alt=""></div>
                         <div class="card__title">
-                            <p>Shoe name</p>
+                            <p>Bông tai</p>
                         </div>
                         <div class="card__price">
-                            <p>7.000.000 <sup>đ</sup></p>
+                            <p>410.000 <sup>VNĐ</sup></p>
                         </div>
+
                         <div class="card__action">
-                            <button>Buy now</button>
-                            <button>Add cart</button>
-                            <button>Detail</button>
+                            <button type="button"  onclick="btn()">Mua ngay</button>
+                            <a href="shoppingcart.html"><button>Giỏ hàng</button></a> 
+                            <button href="detail.html">Chi tiết</button>
                         </div>
                     </div>
                 </div>
@@ -207,17 +217,18 @@
 
                         </div>
                         <div class="card__cart"><i class='bx bx-cart-alt'></i></div>
-                        <div class="card__img"> <img src="img/tai.png" alt=""></div>
+                        <div class="card__img"> <img src="img/chuyen2.jpg" alt=""></div>
                         <div class="card__title">
-                            <p>Shoe name</p>
+                            <p>Bông tai</p>
                         </div>
                         <div class="card__price">
-                            <p>7.000.000 <sup>đ</sup></p>
+                            <p>410.000 <sup>VNĐ</sup></p>
                         </div>
+
                         <div class="card__action">
-                            <button>Buy now</button>
-                            <button>Add cart</button>
-                            <button>Detail</button>
+                            <button type="button"  onclick="btn()">Mua ngay</button>
+                            <a href="shoppingcart.html"><button>Giỏ hàng</button></a> 
+                            <button href="detail.html">Chi tiết</button>
                         </div>
                     </div>
                 </div>
@@ -234,18 +245,18 @@
 
                         </div>
                         <div class="card__cart"><i class='bx bx-cart-alt'></i></div>
-                        <div class="card__img"> <img src="img/tai.png" alt=""></div>
+                        <div class="card__img"> <img src="img/chuyen3.jpg" alt=""></div>
                         <div class="card__title">
-                            <p>Shoe name</p>
+                            <p>Bông tai</p>
                         </div>
                         <div class="card__price">
-                            <p>7.000.000 <sup>đ</sup></p>
+                            <p>410.000 <sup>VNĐ</sup></p>
                         </div>
 
                         <div class="card__action">
-                            <button>Buy now</button>
-                            <button>Add cart</button>
-                            <button>Detail</button>
+                            <button type="button"  onclick="btn()">Mua ngay</button>
+                            <a href="shoppingcart.html"><button>Giỏ hàng</button></a> 
+                            <button href="detail.html">Chi tiết</button>
                         </div>
                     </div>
                 </div>
@@ -257,18 +268,18 @@
 
                         </div>
                         <div class="card__cart"><i class='bx bx-cart-alt'></i></div>
-                        <div class="card__img"> <img src="img/laccc.jpg" alt=""></div>
+                        <div class="card__img"> <img src="img/lac3.jpg" alt=""></div>
                         <div class="card__title">
-                            <p>Shoe name</p>
+                            <p>Bông tai</p>
                         </div>
                         <div class="card__price">
-                            <p>7.000.000 <sup>đ</sup></p>
+                            <p>410.000 <sup>VNĐ</sup></p>
                         </div>
 
                         <div class="card__action">
-                            <button>Buy now</button>
-                            <button>Add cart</button>
-                            <button>Detail</button>
+                            <button type="button"  onclick="btn()">Mua ngay</button>
+                            <a href="shoppingcart.html"><button>Giỏ hàng</button></a> 
+                            <button href="detail.html">Chi tiết</button>
                         </div>
                     </div>
                 </div>
@@ -280,18 +291,18 @@
 
                         </div>
                         <div class="card__cart"><i class='bx bx-cart-alt'></i></div>
-                        <div class="card__img"> <img src="img/tai.png" alt=""></div>
+                        <div class="card__img"> <img src="img/nhan1.jpg" alt=""></div>
                         <div class="card__title">
-                            <p>Shoe name</p>
+                            <p>Bông tai</p>
                         </div>
                         <div class="card__price">
-                            <p>7.000.000 <sup>đ</sup></p>
+                            <p>410.000 <sup>VNĐ</sup></p>
                         </div>
 
                         <div class="card__action">
-                            <button>Buy now</button>
-                            <button>Add cart</button>
-                            <button>Detail</button>
+                            <button type="button"  onclick="btn()">Mua ngay</button>
+                            <a href="shoppingcart.html"><button>Giỏ hàng</button></a> 
+                            <button href="detail.html">Chi tiết</button>
                         </div>
                     </div>
                 </div>
@@ -303,18 +314,18 @@
 
                         </div>
                         <div class="card__cart"><i class='bx bx-cart-alt'></i></div>
-                        <div class="card__img"> <img src="img/taibac.jpg" alt=""></div>
+                        <div class="card__img"> <img src="img/lac4.jpg" alt=""></div>
                         <div class="card__title">
-                            <p>Shoe name</p>
+                            <p>Bông tai</p>
                         </div>
                         <div class="card__price">
-                            <p>7.000.000 <sup>đ</sup></p>
+                            <p>410.000 <sup>VNĐ</sup></p>
                         </div>
 
                         <div class="card__action">
-                            <button>Buy now</button>
-                            <button>Add cart</button>
-                            <button>Detail</button>
+                            <button type="button"  onclick="btn()">Mua ngay</button>
+                            <a href="shoppingcart.html"><button>Giỏ hàng</button></a> 
+                            <button href="detail.html">Chi tiết</button>
                         </div>
                     </div>
                 </div>
@@ -350,18 +361,18 @@
 
                     </div>
                     <div class="card__cart"><i class='bx bx-cart-alt'></i></div>
-                    <div class="card__img"> <img src="img/tai.png" alt=""></div>
+                    <div class="card__img"> <img src="img/nhan2.jpg" alt=""></div>
                     <div class="card__title">
-                        <p>Shoe name</p>
+                        <p>Bông tai</p>
                     </div>
                     <div class="card__price">
-                        <p>7.000.000 <sup>đ</sup></p>
+                        <p>410.000 <sup>VNĐ</sup></p>
                     </div>
 
                     <div class="card__action">
-                        <button>Buy now</button>
-                        <button>Add cart</button>
-                        <a href="detail.html"><button>Detail</button></a>
+                        <button type="button"  onclick="btn()">Mua ngay</button>
+                        <button href="shoppingcart.html">Giỏ hàng</button>
+                        <button href="detail.html">Chi tiết</button>
                     </div>
                 </div>
             </div>
@@ -373,18 +384,18 @@
 
                     </div>
                     <div class="card__cart"><i class='bx bx-cart-alt'></i></div>
-                    <div class="card__img"> <img src="img/tai.png" alt=""></div>
+                    <div class="card__img"> <img src="img/nhan3.jpg" alt=""></div>
                     <div class="card__title">
-                        <p>Shoe name</p>
+                        <p>Bông tai</p>
                     </div>
                     <div class="card__price">
-                        <p>7.000.000 <sup>đ</sup></p>
+                        <p>410.000 <sup>VNĐ</sup></p>
                     </div>
 
                     <div class="card__action">
-                        <button>Buy now</button>
-                        <button>Add cart</button>
-                        <button>Detail</button>
+                        <button type="button"  onclick="btn()">Mua ngay</button>
+                        <button href="shoppingcart.html">Giỏ hàng</button>
+                        <button href="detail.html">Chi tiết</button>
                     </div>
                 </div>
             </div>
@@ -395,17 +406,18 @@
 
                     </div>
                     <div class="card__cart"><i class='bx bx-cart-alt'></i></div>
-                    <div class="card__img"> <img src="img/tai2.png" alt=""></div>
+                    <div class="card__img"> <img src="img/bongtai2.jpg" alt=""></div>
                     <div class="card__title">
-                        <p>Shoe name</p>
+                        <p>Bông tai</p>
                     </div>
                     <div class="card__price">
-                        <p>7.000.000 <sup>đ</sup></p>
+                        <p>410.000 <sup>VNĐ</sup></p>
                     </div>
+
                     <div class="card__action">
-                        <button>Buy now</button>
-                        <button>Add cart</button>
-                        <button>Detail</button>
+                        <button type="button"  onclick="btn()">Mua ngay</button>
+                        <button href="shoppingcart.html">Giỏ hàng</button>
+                        <button href="detail.html">Chi tiết</button>
                     </div>
                 </div>
             </div>
@@ -417,17 +429,18 @@
 
                     </div>
                     <div class="card__cart"><i class='bx bx-cart-alt'></i></div>
-                    <div class="card__img"> <img src="img/tai.png" alt=""></div>
+                    <div class="card__img"> <img src="img/bongtai1.jpg" alt=""></div>
                     <div class="card__title">
-                        <p>Shoe name</p>
+                        <p>Bông tai</p>
                     </div>
                     <div class="card__price">
-                        <p>7.000.000 <sup>đ</sup></p>
+                        <p>410.000 <sup>VNĐ</sup></p>
                     </div>
+
                     <div class="card__action">
-                        <button>Buy now</button>
-                        <button>Add cart</button>
-                        <button>Detail</button>
+                        <button type="button"  onclick="btn()">Mua ngay</button>
+                        <button href="shoppingcart.html">Giỏ hàng</button>
+                        <button href="detail.html">Chi tiết</button>
                     </div>
                 </div>
             </div>
@@ -502,11 +515,6 @@
             </div>
         </div>
     </div>
-    <!-- <div class="container-fluid">
-            <img src=img/vedep.png>
-            <h2 class="chen"> Trang sức - tạo thêm vẻ đẹp cho phái nữ</h2>
-        </div> -->
-    <!-- footer -->
     <footer class="main-footer">
         <div class="container">
             <div class="">
