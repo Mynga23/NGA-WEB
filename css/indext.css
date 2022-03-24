@@ -78,6 +78,12 @@ transform: rotate(0deg) scale(1.06);
 ul li{
     text-decoration: none;
     display: inline-flex;
+    /* padding: 20px; */
+}
+.theu .item{
+    padding: 20px;
+}
+.head li{
     padding: 20px;
 }
 /*  */
@@ -138,16 +144,23 @@ text-decoration: none;
     display: none;
 }
 button{
+    border: none;
     padding: 3px;
     border-radius: 8px;
     color: white;
-    /* background-color: #4daf54; */
-    background-color: #d85d44;
+    /* background-color: #d85d44; */
+    background-color: #d3a24e;
 }
 button:hover {
-    background: #f12711; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f12711, #f5af19); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f12711, #f5af19); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    background-color: #d3a24e;
+      /* background-color: #ccc; */
+    /* background: #f12711; */
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f12711, #f5af19); 
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f12711, #f5af19); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .index-card{
     padding-left: 16px;
@@ -164,12 +177,13 @@ button:hover {
 
 .card__title p{
     text-align: center;
-    font-weight: bold;
-    color: red;
+    font-weight: 500;
+    color: black;
 }
 .card__price p{
 text-align: center;
-color: red;
+/* color: rgb(85, 79, 79); */
+color: #c18a2c;
 font-weight: bold;
 }
 .card-group .card{
@@ -183,6 +197,9 @@ font-weight: bold;
     border-radius: 30%;
     width: 100%;
     height: 216px;
+}
+.card img:hover{
+    transform: scale(1.2);
 }
 .sectionwrapper-home-newsletter{
 
@@ -205,6 +222,9 @@ font-weight: bold;
     height: 52px;
     border: none;
     width: 62%;
+}
+.nhap:hover{
+    border: none;
 }
 .sent{
     width: 81px;
@@ -312,29 +332,4 @@ h2{
     font-size: 30px;
     margin-top: 90px;
     padding: 3px
-}
-
-
-
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
-}
-
-.carousel-inner .carousel-item-right.active,
-.carousel-inner .carousel-item-next {
-  transform: translateX(30%);
-}
-
-.carousel-inner .carousel-item-left.active, 
-.carousel-inner .carousel-item-prev {
-  transform: translateX(-25%);
-}
-  
-.carousel-inner .carousel-item-right,
-.carousel-inner .carousel-item-left{ 
-  transform: translateX(0);
-  
 }

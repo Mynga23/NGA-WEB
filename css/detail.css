@@ -182,7 +182,8 @@ button{
     border-radius: 8px;
     color: white;
     /* background-color: #4daf54; */
-    background-color: #d85d44;
+    /* background-color: #d85d44; */
+    background-color: #d3a24e;
 }
 button:hover {
     background: #f12711; /* fallback for old browsers */
@@ -208,14 +209,17 @@ button:hover {
     width: 100%;
     height: 184px;
 }
+.card img:hover{
+    transform: scale(1.2);
+}
 .card__title p{
     text-align: center;
-    font-weight: bold;
-    color: red;
+    font-weight: 400;
+    color: black;
 }
 .card__price p{
 text-align: center;
-color: red;
+color: #c18a2c;;
 font-weight: bold;
 }
 .card-group .card{

@@ -187,10 +187,12 @@ button{
     border-radius: 8px;
     color: white;
     /* background-color: #4daf54; */
-    background-color: #d85d44;
+    background-color: #d3a24e;
 }
 button:hover {
-    background: #f12711; /* fallback for old browsers */
+    /* background: #e2e611; */
+    /* background: #f12711;  */
+    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f12711, #f5af19); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f12711, #f5af19); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -217,12 +219,12 @@ button:hover {
 .card__title p{
     text-align: center;
     font-weight: bold;
-    color: red;
+    color: black;
 }
 .card__price p{
+color: #c18a2c;
+font-weight: bold;;
 text-align: center;
-color: red;
-font-weight: bold;
 }
 .card-group .card{
     height: 480px;
